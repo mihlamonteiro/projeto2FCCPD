@@ -57,17 +57,17 @@ docker run --name client --network proj2-net desafio1-client
 ## Prints de Execução
 
 ### Resposta do servidor em `localhost:8080`
-![server_response](b43d585a-3bd9-4c3e-9290-3d6b08da4d37.png)
+![server_response](projeto2/httpDesafio1.png)
 
 ---
 
 ### Containers em execução (Docker Desktop)
-![docker_running](22ca47f9-a547-4354-8312-d01678e61954.png)
+![docker_running](projeto2/dockeratv2.png)
 
 ---
 
 ### Cliente enviando requisições continuamente
-![client_logs](httpDesafio1.png)
+![client_logs](projeto2/terminalatv2.png)
 
 ---
 
