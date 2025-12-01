@@ -1,1 +1,20 @@
-version: "3" 
+services:
+  users-service:
+    build: ./users-service
+    container_name: desafio5-users-service
+
+  orders-service:
+    build: ./orders-service
+    container_name: desafio5-orders-service
+
+  gateway:
+    build: ./gateway
+    container_name: desafio5-gateway
+    environment:
+      USERS_SERVICE_URL: http://users-service:3001/users
+      ORDERS_SERVICE_URL: http://orders-service:3002/orders
+    depends_on:
+      - users-service
+      - orders-service
+    ports:
+      - "3000:3000"
