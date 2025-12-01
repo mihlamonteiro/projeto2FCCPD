@@ -1,0 +1,1 @@
+const express=require('express');const app=express();app.get('/',(r,s)=>s.json({ok:true}));app.listen(8080);
