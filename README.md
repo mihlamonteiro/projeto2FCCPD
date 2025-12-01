@@ -106,10 +106,3 @@ Criação de uma arquitetura completa com dois microsserviços internos (usuári
 - PostgreSQL  
 - Redis  
 
----
-
-## Documentação Completa
-
-Para detalhes técnicos, instruções passo a passo, prints e exemplos de teste, consulte os READMEs individuais de cada desafio.
-
----
