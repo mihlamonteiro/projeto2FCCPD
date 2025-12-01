@@ -107,6 +107,3 @@ Este desafio comprova:
 - Resolução automática de nomes (DNS interno)
 - Execução simultânea de servidor e cliente em ambientes isolados
 
----
-
-Arquivo gerado automaticamente.
