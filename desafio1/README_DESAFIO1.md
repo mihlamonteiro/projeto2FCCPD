@@ -67,7 +67,7 @@ docker run --name client --network proj2-net desafio1-client
 ---
 
 ### Cliente enviando requisições continuamente
-![client_logs](b44b1d18-6801-4c11-acc8-cb7349de3efb.png)
+![client_logs](httpDesafio1.png)
 
 ---
 
