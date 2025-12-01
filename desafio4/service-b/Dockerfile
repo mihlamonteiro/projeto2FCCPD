@@ -1,4 +1,11 @@
-FROM node:20-alpine
+FROM node:20
+
 WORKDIR /app
+
+COPY package*.json ./
+RUN npm install --omit=dev
+
 COPY . .
-CMD ["node","index.js"]
+
+EXPOSE 3002
+CMD ["npm", "start"]

@@ -1,1 +1,14 @@
-version: "3" 
+services:
+  service-a:
+    build: ./service-a
+    container_name: desafio4-service-a
+
+  service-b:
+    build: ./service-b
+    container_name: desafio4-service-b
+    environment:
+      USERS_URL: http://service-a:3001/users
+    depends_on:
+      - service-a
+    ports:
+      - "3002:3002"
